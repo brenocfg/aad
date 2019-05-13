@@ -45,7 +45,7 @@ public:
 	/*counts number of each ship type in the graph*/
 	void countNumShips();
 	
-	uint32_t	 getTypeOfComponent(vector<uint32_t> &component);
+	uint32_t getTypeOfComponent(vector<uint32_t> &component);
 
 private:
 	uint32_t _num_v;

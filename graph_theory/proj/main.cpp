@@ -26,6 +26,7 @@ int main(void) {
 	myGraph.countNumShips();
 	cout << myGraph.getNumRecons() << " " << myGraph.getNumFrigates() << " ";
 	cout << myGraph.getNumBombers() << " " << myGraph.getNumTrans() << "\n";
+	cout << "0\n";
 	
 	return 0;
 }
